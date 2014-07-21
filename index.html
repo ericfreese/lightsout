@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lights Out</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta name="description" content="Lights Out">
+    <meta name="keywords" content="Lights Out">
+    <meta name="author" content="Eric Freese">
+
+    <link href="/css/main.css" rel="stylesheet">
+    <script src="/js/main.js"></script>
+  </head>
+
+  <body>
+    <section class="vertically-center full-size">
+      <div class="vertically-center_inner">
+        <div class="game-container">
+          <h1>Lights Out</h1>
+          <div class="lights-container">
+            <div class="lights"></div>
+          </div>
+          <form action="" class="lights-options">
+            <div class="form-row">
+              <div class="control">
+                  <label>Size:
+                  <input type="number" name="size" required min="3" max="20">
+                </label>
+              </div>
+              <div class="control">
+                  <label>Shuffles:
+                  <input type="number" name="shuffles" required min="0" max="300">
+                </label>
+              </div>
+            </div>
+            <div class="form-row">
+              <input type="submit" value="Restart">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
